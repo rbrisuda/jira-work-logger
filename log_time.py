@@ -87,10 +87,7 @@ def load_input(argv):
     input_dry = False
     opts, args = getopt.getopt(argv, "m:v:s:d:", ["month=", "vacations=", "skip=", "dry="])
     for opt, arg in opts:
-        if opt == '-h':
-            print('log_time.py -m 12 -v 1,10-12 -s 17')
-            sys.exit()
-        elif opt in ("-m", "--month"):
+        if opt in ("-m", "--month"):
             input_month = arg
         elif opt in ("-v", "--vacations"):
             input_vacations = arg.split(",")

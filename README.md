@@ -4,6 +4,9 @@ Script for logging time in JIRA in bulks on monthly basis.
 Script by default logs every single working day to single jira issue and can be configured to
 skip vacation days (vacation days can are logged to different jira issue) or skip logging fully.
 
+Preconditions:
+* installed python3 and pip utility
+
 Usage:
 
 1. Clone repository.
